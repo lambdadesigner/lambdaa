@@ -1,3 +1,5 @@
+// Universal Variables 
+var windowsheight = $(window).height();
 //jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
@@ -17,3 +19,9 @@ $(function() {
         event.preventDefault();
     });
 });
+
+// Margin top to content text
+$(window).load(function(){
+    var dividedwindowsheight = windowsheight / 7.5;
+    $('.ContentTop').css('margin-top', dividedwindowsheight + 'px' );
+})

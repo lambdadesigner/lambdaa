@@ -20,13 +20,11 @@
 
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
+	#intro .container-fluid{
+		padding: 0 70px;
+	}
 	.bg-image{
-		background: url(../images/first-img.png) #303032;
-		background-repeat: no-repeat;
-		width: auto;
-		min-width: 90%;
-		height: 100vh;
-		/*position: absolute;*/
+		background: #303032;
 	}
 	#development .developmentprocess{
 		background: url(../images/development-process.png);
@@ -39,6 +37,9 @@
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
+	#intro .container-fluid{
+		padding: 0 70px;
+	}
 	.bg-image{
 		background: #303032;
 	}
@@ -54,6 +55,9 @@
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+	#intro .container-fluid{
+		padding: 0 70px;
+	}
 	.bg-image{
 		background: #303032;
 	}
@@ -69,13 +73,16 @@
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
+	#intro .container-fluid{
+		padding: 0 70px;
+	}
 	.bg-image{
 		background: #303032;
 	}
 	#development .developmentprocess{
 		background:transparent;
 	 }
- #development .developmentprocess .box2, #development .developmentprocess .box3, #development .developmentprocess .box1{
+ 	#development .developmentprocess .box2, #development .developmentprocess .box3, #development .developmentprocess .box1{
 		top: 0;
 		left: 0;
 		margin-top: 0;

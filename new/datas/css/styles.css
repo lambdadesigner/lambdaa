@@ -3,7 +3,18 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
+ /*Import CSS*/
+ @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+ @import url(http://fonts.googleapis.com/css?family=Raleway);
+*{
+	letter-spacing: 1px;
+}
+h1, h2, h3, h4, h5{
+	font-family: 'Open Sans', sans-serif;
+}
+p{
+	font-family: 'Raleway', sans-serif;
+}
 body {
 	width: 100%;
 	height: 100%;
@@ -34,41 +45,41 @@ of those sections to manage the look and feel of the site. */
 .intro-section {
 	height: 100vh;
 	padding-top: 150px;
-	text-align: center;
+	text-align: left;
 	background: #fff;
 }
 
 .about-section {
 	height: 100vh;
 	padding-top: 150px;
-	text-align: center;
+	text-align: left;
 	background: #eee;
 }
 
 .services-section {
 	height: 100vh;
 	padding-top: 150px;
-	text-align: center;
+	text-align: left;
 	background: #fff;
 }
 
 .contact-section {
 	height: 100vh;
 	padding-top: 150px;
-	text-align: center;
+	text-align: left;
 	background: #eee;
 }
 .careers-section {
 	height: 100vh;
 	padding-top: 150px;
-	text-align: center;
+	text-align: left;
 	background: #fff;
 }
 
 .works-section {
 	height: 100vh;
 	padding-top: 150px;
-	text-align: center;
+	text-align: left;
 	background: #eee;
 }
 .btn.page-scroll{
@@ -85,19 +96,52 @@ of those sections to manage the look and feel of the site. */
 	background: white;
 	color: #303032;
  }
+ .themecolor{
+ 	color: #19C8A5;
+ 	text-transform: uppercase;
+ }
+  .themecolor2{
+ 	color: #19C8A5;
+ 	/*text-transform: uppercase;*/
+ 	font-size: 1.2em;
+ }
+
+ /*Intro*/
+#intro h1.description {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    float: left;
+    font-size: 4em;
+    text-transform: uppercase;
+    line-height: 55px;
+    font-weight: normal;
+    color: white;
+    text-shadow: 2px 2px 15px #000;
+}
+#development .developmentprocess .box1 strong, #development .developmentprocess .box2 strong , #development .developmentprocess .box3 strong {
+	font-weight: bold;
+	color: black;
+}
+#intro p{
+	font-size: 1.2em;
+	color: #eee;
+	line-height: 20px;
+}
 /*Boxes in Development process*/
-#development .developmentprocess .box1{
-	left: 0%;
-	margin-top: 15%;
-	/*height: 300px;*/
-	text-align: left;
+#development .developmentprocess .box1 {
+    left: 0%;
+    margin-top: 80px;
+    /* height: 300px; */
+    text-align: left;
 }
 
 #development .developmentprocess .box1 h3{
 	font-size:22px;
 	padding:0;
 	margin:0;
-	color:#222;
+	color:#303032;
 }
 #development .developmentprocess .box1 p{
 	font-size:14px;
@@ -106,18 +150,18 @@ of those sections to manage the look and feel of the site. */
 	color:#666;
 }
 
-#development .developmentprocess .box2{
-	left: 0%;
-	margin-top: 35%;
-	/*height: 300px;*/
-	text-align: left;
+#development .developmentprocess .box2 {
+    left: 50px;
+    margin-top: 320px;
+    /* height: 300px; */
+    text-align: left;
 }
 
 #development .developmentprocess .box2 h3{
 	font-size:22px;
 	padding:0;
 	margin:0;
-	color:#222;
+	color:#303032;
 }
 #development .developmentprocess .box2 p{
 	font-size:14px;
@@ -125,22 +169,62 @@ of those sections to manage the look and feel of the site. */
 	margin:0;
 	color:#666;
 }
-#development .developmentprocess .box3{
-	left: 5%;
-	margin-top: 15%;
-	/*height: 300px;*/
-	text-align: left;
+#development .developmentprocess .box3 {
+    left: 50px;
+    margin-top: 80px;
+    /* height: 300px; */
+    text-align: left;
 }
 
 #development .developmentprocess .box3 h3{
 	font-size:18px;
 	padding:0;
 	margin:0;
-	color:#222;
+	color:#303032;
 }
 #development .developmentprocess .box3 p{
 	font-size:14px;
 	padding:0;
 	margin:0;
 	color:#666;
+}
+#about h2{
+	font-size: 2.3em;
+	margin-bottom: 20px;
+}
+.black-bg .line{
+	border-bottom: 1px solid #555;
+	height: 2px;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.white-bg .line{
+	border-bottom: 1px solid #ddd;
+	height: 2px;
+	width: 100%;
+	margin-bottom: 15px;
+}
+#about p{
+	font-size: 1.2em;
+}
+#works h2{
+	font-size: 2.3em;
+	margin-bottom: 20px;
+}
+#works p{
+	font-size: 1.2em;
+}
+#careers h2{
+	font-size: 2.3em;
+	margin-bottom: 20px;
+}
+#careers p{
+	font-size: 1.2em;
+}
+#services h2{
+	font-size: 2.3em;
+	margin-bottom: 20px;
+}
+#services p{
+	font-size: 1.2em;
 }
