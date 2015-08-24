@@ -1,5 +1,6 @@
 // Universal Variables 
 var windowsheight = $(window).height();
+var windowswidth = $(window).width();
 //jQuery to collapse the navbar on scroll
 
 $(window).bind('mousewheel', $.proxy(function(e){
@@ -29,4 +30,10 @@ $(window).load(function(){
 
 $(function() {
     $( "#accordion" ).accordion();
+});
+
+
+$(function(){
+    $('.lambdalogo').css('margin-left', windowswidth / 4 + 'px');
+    // alert('lambdalogo')
 });

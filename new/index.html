@@ -47,17 +47,12 @@
 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 		<div class="container">
 			<div class="navbar-header page-scroll">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand page-scroll" href="#page-top"><img src="datas/images/logo.png" class="img-responsive"></a>
+				<a class="navbar-brand page-scroll visible-md visible-lg visible-sm" href="#Home"><img src="datas/images/logo.png" class="img-responsive"></a>
+				<a class="navbar-brand page-scroll visible-xs" href="#page-top"><img src="datas/images/logo.png" class="img-responsive lambdalogo"></a>
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse navbar-ex1-collapse">
+			<div class="collapse navbar-collapse navbar-ex1-collapse visible-lg visible-md visible-sm">
 				<ul class="nav navbar-nav navbar-right" id="menu">
 					<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
 					<li class="hidden" data-menuanchor="Home">
@@ -92,7 +87,7 @@
   <div id="fullpage">
 
 	<!-- Intro Section -->
-	<section id="intro" class="intro-section black-bg bg-image section" id="section0">
+	<section id="intro" class="intro-section black-bg bg-image section" id="section0" id="Home">
 		<div class="container-fluid ContentTop">
 			<div class="row">
 				<div class="col-lg-6">
@@ -110,7 +105,7 @@
 		</div>
 	</section>
 	<!-- Development Section -->
-	<section id="development" class="about-section white-bg section" id="section1">
+	<section id="development" class="about-section white-bg section visible-lg visible-md visible-sm" id="section1">
 		<div class="container developmentprocess">
 			<div class="row">
 				<div class="col-md-12">
@@ -139,7 +134,7 @@
 	</section>
 
 	<!-- About Section -->
-	<section id="about" class="about-section black-bg section" id="section2">
+	<section id="about" class="about-section black-bg section visible-lg visible-md visible-sm" id="section2">
 		<div class="container ContentTop">
 			<div class="row">
 				<div class="col-md-6">
@@ -157,7 +152,8 @@
 			
 		</div>
 	</section>
-	<section id="works" class="works-section white-bg section" id="section3">
+	<!-- Works Section -->
+	<section id="works" class="works-section white-bg section visible-lg visible-md visible-sm" id="section3">
 		<div class="container ContentTop">
 			<div class="row">
 				<div class="col-md-7">
@@ -174,7 +170,7 @@
 		</div>
 	</section>
 	<!-- Services Section -->
-	<section id="services" class="services-section black-bg section" id="section4">
+	<section id="services" class="services-section black-bg section visible-lg visible-md visible-sm" id="section4">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-7">
@@ -199,8 +195,8 @@
 			</div>
 		</div>
 	</section>
-	
-	<section id="careers" class="careers-section white-bg section" id="section5">
+	<!-- Careers Section -->
+	<section id="careers" class="careers-section white-bg section visible-lg visible-md visible-sm" id="section5">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-7">
@@ -253,14 +249,12 @@
 			</div>
 		</div>
 	</section>
-	
-
 	<!-- Contact Section -->
 	<section id="contact" class="contact-section black-bg section" id="section6">
 		<div class="container ContentTop">
 			<div class="row">
 				<div class="col-md-7">
-					<img src="datas/images/contactus.png" class="img-responsive">
+					<img src="datas/images/contactus.png" class="img-responsive visible-lg visible-md">
 				</div>
 				<div class="col-md-5">
 					<h2>How to  <span class="themecolor">Reach us</span>.</h2>
@@ -309,11 +303,9 @@
 					//sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff', '#4BBFC3', '#7BAABE'],
 					anchors: ['Home', 'Development', 'About', 'Works', 'Services','Careers','Contact'],
 					menu: '#menu',
-
 					//equivalent to jQuery `easeOutBack` extracted from http://matthewlein.com/ceaser/
 					//easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)'
 				});
-
 			});
 		</script>
 
