@@ -32,3 +32,12 @@ hr {
     border: 0;
     border-top: 1px solid #aaa;
 }
+
+#accordion h3 {
+    border-bottom: 1px solid black;
+    padding: 5px 0px;
+    cursor: pointer;
+}
+#accordion div {
+    height: auto;
+}
