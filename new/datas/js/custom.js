@@ -25,3 +25,7 @@ $(window).load(function(){
     var dividedwindowsheight = windowsheight / 7.5;
     $('.ContentTop').css('margin-top', dividedwindowsheight + 'px' );
 })
+
+$(function() {
+    $( "#accordion" ).accordion();
+});
