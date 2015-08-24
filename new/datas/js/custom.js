@@ -1,13 +1,14 @@
 // Universal Variables 
 var windowsheight = $(window).height();
 //jQuery to collapse the navbar on scroll
-$(window).scroll(function() {
+
+$(window).bind('mousewheel', $.proxy(function(e){
     if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
-});
+},this));
 
 //jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {

@@ -19,6 +19,13 @@
     color: #777;
     padding: 30px 25px;
 }
+
+.navbar-default .navbar-nav>.active>a {
+    background: url(../images/active-bg.png);
+    padding: 30px 25px;
+    color: white;
+}
+
 hr {
     margin-top: 20px;
     margin-bottom: 20px;
