@@ -12,6 +12,8 @@
 	 <link rel="shortcut icon" href="http://lambdainnov.com/customs/images/favicon.ico">
 
 	<title>Lambda Software Innovation</title>
+		<!-- Accordion CSS -->
+	<link rel="stylesheet" type="text/css" href="datas/css/accordion.css">
 
    <!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -29,6 +31,7 @@
 	<link rel="stylesheet" type="text/css" href="datas/css/bootstrap-overwritten.css">
 	<!-- Meida Queries -->
 	<link rel="stylesheet" type="text/css" href="datas/css/media-queries.css">
+
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -58,7 +61,7 @@
 					<li class="hidden" data-menuanchor="Home">
 						<a class="page-scroll" href="#firstPage"></a>
 					</li>
-				    <li data-menuanchor="Development">
+					<li data-menuanchor="Development">
 						<a class="page-scroll" href="#Development"> Development </a>
 					</li>
 					<li data-menuanchor="About">
@@ -199,10 +202,10 @@
 	<section id="careers" class="careers-section white-bg section visible-lg visible-md visible-sm" id="section5">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-7">
+				<div class="col-md-6">
 					<img src="datas/images/careers.png" class="img-responsive">
 				</div>
-				<div class="col-md-5">
+				<div class="col-md-6">
 					<h2>We <span class="themecolor">Offer Clear careers</span>.</h2>
 					<div class="line"></div>
 					<!-- <p>
@@ -211,40 +214,38 @@
 					<p>	
 						Lambda Software Innovations have been building and designing Native mobile applications for iOS(iPhone &amp; iPad), Android (Phone &amp; Tablets) and Windows. Lambda Software Innovation expertise has also extended in creating cross platform applications using jQuery mobile, Phonegap, Titanium frameworks and solutions based on HTML5.
 					</p> -->
-					<div id="accordion">
-					  <h3>Section 1</h3>
-					  <div>
-					    <p>
-					    Lambda Software Innovations has been leading in creating mobile &amp; web applications. We are the chosen partners for many Fortune 500 brands and we have been consistently helping our clients to set mobile and cloud strategies for their brands by understanding their business.
-					    </p>
-					  </div>
-					  <h3>Section 2</h3>
-					  <div>
-					    <p>
-					   Lambda Software Innovations have been building and designing Native mobile applications for iOS(iPhone &amp; iPad), Android (Phone &amp; Tablets) and Windows. Lambda Software Innovation expertise has also extended in creating cross platform applications using jQuery mobile, Phonegap, Titanium frameworks and solutions based on HTML5.
-					    </p>
-					  </div>
-					  <h3>Section 3</h3>
-					  <div>
-					    <p>
-					    Lambda Software Innovations has been leading in creating mobile &amp; web applications. We are the chosen partners for many Fortune 500 brands and we have been consistently helping our clients to set mobile and cloud strategies for their brands by understanding their business.
-					    </p>
-					    <ul>
-					      <li>List item one</li>
-					      <li>List item two</li>
-					      <li>List item three</li>
-					    </ul>
-					  </div>
-					  <h3>Section 4</h3>
-					  <div>
-					    <p>
-					    Lambda Software Innovations has been leading in creating mobile &amp; web applications. We are the chosen partners for many Fortune 500 brands and we have been consistently helping our clients to set mobile and cloud strategies for their brands by understanding their business.
-					    </p>
-					    <p>
-					     Lambda Software Innovations have been building and designing Native mobile applications for iOS(iPhone &amp; iPad), Android (Phone &amp; Tablets) and Windows. Lambda Software Innovation expertise has also extended in creating cross platform applications using jQuery mobile, Phonegap, Titanium frameworks and solutions based on HTML5.
-					    </p>
+					<!-- Accordians Starts Here -->
+					<div class="accordions">
+					  <div class="accordion">
+						<dl>
+						  <dt>
+							<a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle js-accordionTrigger">First Accordion heading</a>
+						  </dt>
+						  <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris. </p>
+							<p>Aliquam dapibus, ante quis fringilla feugiat, mauris risus condimentum massa, at elementum libero quam ac ligula. Pellentesque at rhoncus dolor. Duis porttitor nibh ut lobortis aliquam. Nullam eu dolor venenatis mauris placerat tristique eget id dolor. Quisque blandit adipiscing erat vitae dapibus. Nulla aliquam magna nec elementum tincidunt.</p>
+						  </dd>
+						  <dt>
+							<a href="#accordion2" aria-expanded="false" aria-controls="accordion2" class="accordion-title accordionTitle js-accordionTrigger">
+							  Second Accordion heading</a>
+						  </dt>
+						  <dd class="accordion-content accordionItem is-collapsed" id="accordion2" aria-hidden="true">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris. </p>
+							<p>Aliquam dapibus, ante quis fringilla feugiat, mauris risus condimentum massa, at elementum libero quam ac ligula. Pellentesque at rhoncus dolor. Duis porttitor nibh ut lobortis aliquam. Nullam eu dolor venenatis mauris placerat tristique eget id dolor. Quisque blandit adipiscing erat vitae dapibus. Nulla aliquam magna nec elementum tincidunt.</p>
+						  </dd>
+						  <dt>
+							<a href="#accordion3" aria-expanded="false" aria-controls="accordion3" class="accordion-title accordionTitle js-accordionTrigger">
+							  Third Accordion heading
+							</a>
+						  </dt>
+						  <dd class="accordion-content accordionItem is-collapsed" id="accordion3" aria-hidden="true">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris. </p>
+							<p>Aliquam dapibus, ante quis fringilla feugiat, mauris risus condimentum massa, at elementum libero quam ac ligula. Pellentesque at rhoncus dolor. Duis porttitor nibh ut lobortis aliquam. Nullam eu dolor venenatis mauris placerat tristique eget id dolor. Quisque blandit adipiscing erat vitae dapibus. Nulla aliquam magna nec elementum tincidunt.</p>
+						  </dd>
+						</dl>
 					  </div>
 					</div>
+					<!-- Accordian Ends Here -->
 				</div>
 			</div>
 		</div>
@@ -299,6 +300,8 @@
 		<script type="text/javascript" src="datas/js/jquery.fullPage.js"></script>		
 		<script type="text/javascript">
 			$(document).ready(function() {
+
+			  if (windowswidth > 766) {	
 				$('#fullpage').fullpage({
 					//sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff', '#4BBFC3', '#7BAABE'],
 					anchors: ['Home', 'Development', 'About', 'Works', 'Services','Careers','Contact'],
@@ -306,6 +309,7 @@
 					//equivalent to jQuery `easeOutBack` extracted from http://matthewlein.com/ceaser/
 					//easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)'
 				});
+			  }
 			});
 		</script>
 
