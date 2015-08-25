@@ -20,6 +20,19 @@ $(window).bind('mousewheel', $.proxy(function(e){
 	}    
 },this));
 
+//Careers Tab
+$(function(){
+    $('.accordions .accordion dl dt a').click(function(){
+        $('.accordions .accordion dl dt a').removeClass('is-expanded');
+        $('.accordions .accordion dl dd').removeClass('is-expanded animateIn');
+        $('.accordions .accordion dl dd').addClass('is-collapsed');        
+        var aid = $(this).attr('href');        
+        $(aid).removeClass('is-collapsed');
+        $(aid).addClass('is-expanded animateIn');        
+        $(this).addClass('is-collapsed is-expanded');                   
+    });
+});
+
 $(function(){
 	$(window).on("touchstart", function(){
 		// alert('haaal');
