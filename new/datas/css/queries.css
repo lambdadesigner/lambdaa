@@ -1,0 +1,21 @@
+@media only screen and (min-width:1800px) and (max-width: 3640px)  {
+	.bg-image{
+		background: url(../images/first-img.png) #303032;
+		background-repeat: no-repeat;
+		width: auto;
+		min-width: 90%;
+		height: 100vh;
+		/*position: absolute;*/
+	}
+}
+
+@media only screen and (min-width: 1199px) and (max-width: 1800px) {
+	.bg-image { 
+		background: url(../images/small-first-img.png) #303032;
+		background-repeat: no-repeat;
+		width: auto;
+		min-width: 90%;
+		height: 100vh;
+    	background-size: 55% auto;
+	}
+}

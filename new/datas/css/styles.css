@@ -41,31 +41,12 @@ html {
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
-@media only screen and (min-width: 1800px) {
-	.bg-image{
-		background: url(../images/first-img.png) #303032;
-		background-repeat: no-repeat;
-		width: auto;
-		min-width: 90%;
-		height: 100vh;
-		/*position: absolute;*/
-	}
-}
-
-@media only screen and (max-width: 1800px) {
-	.bg-image { 
-	    background-image: url(small-first-img.png) #303032;
-	    background-repeat: no-repeat;
-		width: auto;
-		min-width: 90%;
-		height: 100vh;
-	}
-}
 .intro-section {
 	height: 100vh;
 	padding-top: 150px;
 	text-align: left;
 	background: #fff;
+	min-height: 550px;
 }
 
 .about-section {
@@ -73,6 +54,7 @@ of those sections to manage the look and feel of the site. */
 	padding-top: 150px;
 	text-align: left;
 	background: #eee;
+	min-height: 550px;
 }
 
 .services-section {
@@ -80,6 +62,7 @@ of those sections to manage the look and feel of the site. */
 	padding-top: 150px;
 	text-align: left;
 	background: #fff;
+	min-height: 550px;
 }
 
 .contact-section {
@@ -87,12 +70,14 @@ of those sections to manage the look and feel of the site. */
 	padding-top: 150px;
 	text-align: left;
 	background: #eee;
+	min-height: 550px;
 }
 .careers-section {
 	height: 100vh;
 	padding-top: 150px;
 	text-align: left;
 	background: #fff;
+	min-height: 550px;
 }
 
 .works-section {
@@ -100,6 +85,7 @@ of those sections to manage the look and feel of the site. */
 	padding-top: 150px;
 	text-align: left;
 	background: #eee;
+	min-height: 550px;
 }
 .btn.page-scroll{
 	position: relative;
@@ -116,28 +102,28 @@ of those sections to manage the look and feel of the site. */
 	color: #303032;
  }
  .themecolor{
- 	color: #19C8A5;
- 	text-transform: uppercase;
+	color: #19C8A5;
+	text-transform: uppercase;
  }
   .themecolor2{
- 	color: #19C8A5;
- 	/*text-transform: uppercase;*/
- 	font-size: 1.2em;
+	color: #19C8A5;
+	/*text-transform: uppercase;*/
+	font-size: 1.2em;
  }
 
  /*Intro*/
 #intro h1.description {
-    padding: 0;
-    margin: 0;
-    margin-bottom: 20px;
-    font-family: 'Oswald', sans-serif;
-    float: left;
-    font-size: 4em;
-    text-transform: uppercase;
-    line-height: 55px;
-    font-weight: normal;
-    color: white;
-    text-shadow: 2px 2px 15px #000;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 20px;
+	font-family: 'Oswald', sans-serif;
+	float: left;
+	font-size: 4em;
+	text-transform: uppercase;
+	line-height: 55px;
+	font-weight: normal;
+	color: white;
+	text-shadow: 2px 2px 15px #000;
 }
 #development .developmentprocess .box1 strong, #development .developmentprocess .box2 strong , #development .developmentprocess .box3 strong {
 	font-weight: bold;
@@ -150,10 +136,10 @@ of those sections to manage the look and feel of the site. */
 }
 /*Boxes in Development process*/
 #development .developmentprocess .box1 {
-    left: 0%;
-    margin-top: 80px;
-    /* height: 300px; */
-    text-align: left;
+	left: 0%;
+	margin-top: 80px;
+	/* height: 300px; */
+	text-align: left;
 }
 
 #development .developmentprocess .box1 h3{
@@ -170,10 +156,10 @@ of those sections to manage the look and feel of the site. */
 }
 
 #development .developmentprocess .box2 {
-    left: 50px;
-    margin-top: 320px;
-    /* height: 300px; */
-    text-align: left;
+	left: 50px;
+	margin-top: 320px;
+	/* height: 300px; */
+	text-align: left;
 }
 
 #development .developmentprocess .box2 h3{
@@ -189,10 +175,10 @@ of those sections to manage the look and feel of the site. */
 	color:#666;
 }
 #development .developmentprocess .box3 {
-    left: 50px;
-    margin-top: 80px;
-    /* height: 300px; */
-    text-align: left;
+	left: 50px;
+	margin-top: 80px;
+	/* height: 300px; */
+	text-align: left;
 }
 
 #development .developmentprocess .box3 h3{
