@@ -24,6 +24,10 @@ body {
 html {
    
 }
+a:focus, a:hover {
+    color: #f15b26;
+    text-decoration: none;
+}
 
 @media(min-width:767px) {
 	.navbar {
