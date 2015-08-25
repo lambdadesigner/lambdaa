@@ -3,30 +3,22 @@ var windowsheight = $(window).height();
 var windowswidth = $(window).width();
 //jQuery to collapse the navbar on scroll
 
-$(window).bind('mousewheel', $.proxy(function(e){    
-	if ($(".fullpage-wrapper").offset().top == 0) {        
-		$(".navbar-fixed-top").removeClass('top-nav-collapse');
-	} else {        
-        $(".navbar-fixed-top").addClass('top-nav-collapse');
-	}
-	
-	/*if(document.location.href.indexOf("Home") > 0)
+$(window).bind('mousewheel', $.proxy(function(e){
+	/*if ($(".navbar").offset().top > 50) {
+		$(".navbar-fixed-top").css('background' , 'red');
+	} else {
+		 $(".navbar-fixed-top").css('background' , 'red');
+	}*/
+	// alert(document.location.href.indexOf("Home"));
+	if(document.location.href.indexOf("Home") > 0)
 	{
 	   $(".navbar-fixed-top").removeClass('top-nav-collapse');
 	}
 	else
 	{
 		$(".navbar-fixed-top").addClass('top-nav-collapse');
-	} */   
+	}    
 },this));
-
-//Careers code
-/*$(function(){
-    $(".variation_form_section .select div").click(function() { 
-      $('.variation_form_section .select div').removeClass('active');
-      $(this).addClass('active');
-    }); 
-});*/
 
 $(function(){
 	$(window).on("touchstart", function(){
